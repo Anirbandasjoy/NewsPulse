@@ -4,7 +4,7 @@ import { LuFacebook, LuInstagram, LuTwitter, LuYoutube } from "react-icons/lu";
 const Navbar = () => {
   return (
     <Container>
-      <div className="py-2">
+      <div className="py-2 border-b hidden sm:block px-2 lg:px-0">
         <div className="flex justify-between">
           <div className="">
             <ul className="flex items-center gap-5">
