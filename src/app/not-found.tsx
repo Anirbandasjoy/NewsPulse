@@ -3,7 +3,7 @@ import React from "react";
 
 const NotFound = () => {
   return (
-    <div className="h-[calc(100vh-200px)] flex justify-center items-center">
+    <div className="h-[calc(100vh-250px)] flex justify-center items-center">
       <div className="flex justify-center flex-col items-center gap-3">
         <h1 className="text-4xl">Not Found</h1>
         <Link href="/">

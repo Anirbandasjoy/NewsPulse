@@ -9,7 +9,7 @@ const Menu = () => {
           <li>
             <Link
               className="font-semibold text-[10px] sm:text-[.9rem] text-gray-300 px-2  py-4 hover:bg-gray-900"
-              href="/signIn"
+              href="/"
             >
               Home
             </Link>
