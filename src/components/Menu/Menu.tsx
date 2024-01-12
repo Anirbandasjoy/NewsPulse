@@ -4,11 +4,11 @@ const Menu = () => {
   return (
     <div className="mt-5">
       <div className="w-full py-[0.15rem] bg-[#bd5ed1] "></div>
-      <div className="w-full h-14  bg-[#303030] flex items-center justify-center sm:justify-start">
-        <ul className="flex items-center gap-1 sm:gap-5 ml-1 sm:ml-9">
+      <div className="w-full h-14  bg-[#303030] flex items-center justify-center ">
+        <ul className="flex items-center gap-1 sm:gap-5 ">
           <li>
             <Link
-              className="font-semibold text-xs sm:text-[1.1rem] text-gray-300 px-2  py-4 hover:bg-gray-900"
+              className="font-semibold text-[10px] sm:text-[.9rem] text-gray-300 px-2  py-4 hover:bg-gray-900"
               href="/signIn"
             >
               Home
@@ -16,42 +16,66 @@ const Menu = () => {
           </li>
           <li>
             <Link
-              className="font-semibold text-xs sm:text-[1.1rem] text-gray-300 px-2  py-4 hover:bg-gray-900"
-              href="/lifestyle"
+              className="font-semibold text-[10px] sm:text-[.9rem] text-gray-300 px-2  py-4 hover:bg-gray-900"
+              href="/add-articles"
             >
-              Lifesyle
+              Add Articles
             </Link>
           </li>
           <li>
             <Link
-              className="font-semibold text-xs sm:text-[1.1rem] text-gray-300 px-2  py-4 hover:bg-gray-900"
-              href="/fashion"
+              className="font-semibold text-[10px] sm:text-[.9rem] text-gray-300 px-2  py-4 hover:bg-gray-900"
+              href="/all-articles"
             >
-              Fashion
+              All Articles
             </Link>
           </li>
           <li>
             <Link
-              className="font-semibold text-xs sm:text-[1.1rem] text-gray-300 px-2  py-4 hover:bg-gray-900"
-              href="/travel"
+              className="font-semibold text-[10px] sm:text-[.9rem] text-gray-300 px-2  py-4 hover:bg-gray-900"
+              href="/subscription"
             >
-              Travel
+              Subscription
             </Link>
           </li>
           <li>
             <Link
-              className="font-semibold text-xs sm:text-[1.1rem] text-gray-300 px-2  py-4 hover:bg-gray-900"
-              href="/videos"
+              className="font-semibold text-[10px] sm:text-[.9rem] text-gray-300 px-2  py-4 hover:bg-gray-900"
+              href="/dashboard"
             >
-              Videos
+              Dashboard
             </Link>
           </li>
-          <li>
+          <li className="hidden lg:flex">
             <Link
-              className="font-semibold text-xs sm:text-[1.1rem] text-gray-300 px-2  py-4 hover:bg-gray-900"
-              href="/more"
+              className="font-semibold text-[10px] sm:text-[.9rem] text-gray-300 px-2  py-4 hover:bg-gray-900"
+              href="/my-articles"
             >
-              More
+              My Articles
+            </Link>
+          </li>
+          <li className="hidden lg:flex">
+            <Link
+              className="font-semibold text-[10px] sm:text-[.9rem] text-gray-300 px-2  py-4 hover:bg-gray-900"
+              href="/premium-articles"
+            >
+              Premium Articles
+            </Link>
+          </li>
+          <li className="hidden lg:flex">
+            <Link
+              className="font-semibold text-[10px] sm:text-[.9rem] text-gray-300 px-2  py-4 hover:bg-gray-900"
+              href="/premium-articles"
+            >
+              Premium Articles
+            </Link>
+          </li>
+          <li className="hidden lg:flex">
+            <Link
+              className="font-semibold text-[10px] sm:text-[.9rem] text-gray-300 px-2  py-4 hover:bg-gray-900"
+              href="/user-photo"
+            >
+              User Photo
             </Link>
           </li>
         </ul>
